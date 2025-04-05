@@ -1,3 +1,6 @@
+## Written by Saad Shabbir
+
+
 import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
