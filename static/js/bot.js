@@ -1,3 +1,4 @@
+// Written by Saad Shabbir
 
 function updateTime() {
     var now = new Date();

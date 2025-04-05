@@ -7,10 +7,7 @@
         "patterns": ["Good morning"],
         "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
     },
-    {"tag": "afternoon",
-        "patterns": ["Good afternoon"],
-        "responses": ["Good afternoon. How is your day going?"]
-    },
+    
     {"tag": "evening",
         "patterns": ["Good evening"],
         "responses": ["Good evening. How has your day been?"]
