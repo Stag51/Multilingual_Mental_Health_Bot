@@ -16,7 +16,7 @@
   <svg viewBox="0 0 640 512" title="robot">
         <path fill="currentColor" d="M32,224H64V416H32A31.96166,31.96166,0,0,1,0,384V256A31.96166,31.96166,0,0,1,32,224Zm512-48V448a64.06328,64.06328,0,0,1-64,64H160a64.06328,64.06328,0,0,1-64-64V176a79.974,79.974,0,0,1,80-80H288V32a32,32,0,0,1,64,0V96H464A79.974,79.974,0,0,1,544,176ZM264,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,264,256Zm-8,128H192v32h64Zm96,0H288v32h64ZM456,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,456,256Zm-8,128H384v32h64ZM640,256V384a31.96166,31.96166,0,0,1-32,32H576V224h32A31.96166,31.96166,0,0,1,640,256Z" />
       </svg>
-  <h3>Chatbot</h3>
+  <h3>Chatbot by Saad Shabbir</h3>
  <div>
 <div id="chatbot" class="main-card collapsed">
   <button id="chatbot_toggle">
@@ -31,7 +31,7 @@
       </svg>
     </div>
     <span>
-      <i class="fas fa-bug"></i> Psychiatrist Bot <i class="fas fa-bug"></i>
+      <i class="fas fa-bug"></i> MultiLingual Mental Health Bot <i class="fas fa-bug"></i>
 
     </span>
 
@@ -44,7 +44,7 @@
 
         <div class="msg-bubble">
           <div class="msg-info">
-            <div class="msg-info-name"> Psychiatrist Bot</div>
+            <div class="msg-info-name"> MultiLingual Mental Health Bot</div>
           
             <div class="msg-info-time"><time id="clock"></time></div>
 
@@ -53,7 +53,7 @@
 
           </div>
           <div class="msg-text">
-            Welcome to Psychiatrist, a safe and supportive space where you can share your thoughts and feelings without fear of judgement.
+            Welcome to MultiLingual Mental Health Bot developed by Saad Shabbir, a safe and supportive space where you can share your thoughts and feelings without fear of judgement.
           </div>
         </div>
         
@@ -65,5 +65,9 @@
     </form>
   <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
   <script src="{{ url_for('static', filename='js/bot.js') }}"></script>
+  <!-- Footer Section -->
+  <footer style="text-align:center; padding: 20px; font-size: 14px; color: #555;">
+    <p>{{ developer }} | <a href="{{ linkedin }}" target="_blank">LinkedIn</a></p>
+  </footer>
 </body>
 </html>

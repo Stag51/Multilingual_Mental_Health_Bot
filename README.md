@@ -1,57 +1,84 @@
-<p><h3 align="center"><img src="https://img.shields.io/badge/Mental-Health-blue" alt="shields"><img src="https://img.shields.io/github/stars/Rogendo/Mental-health-Chatbot%20" alt="shields"><img src="https://img.shields.io/github/forks/Rogendo/Mental-health-Chatbot" alt="shields"><img src="https://img.shields.io/github/contributors/Rogendo/Mental-health-Chatbot" alt="shields"></h3></p>
+ # 🤖 Multilingual Mental Health Chatbot 
+ 
+ A smart multilingual chatbot that understands both English and Swahili. It uses language detection,
+ real-time translation, and intent classification to respond accurately to user queries through a web interface.
 
+ ---
 
-<p align="center"><img src="https://socialify.git.ci/Rogendo/Mental-health-Chatbot/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+ ## 👤 Author
+ **Saad Shabbir**  
+ 🔗 [LinkedIn](https://www.linkedin.com/in/saad51)  
+ 💼 ML Engineer | NLP Enthusiast | Web + AI Integrator
 
-<p id="description">This is an AI-powered bot designed to provide emotional support and assistance to individuals struggling with mental health issues. It can help individuals access mental health resources offer guidance and support. With the integration of Language translation this chatbot will be very efficient as it will be able to break the language barriers. The creation of a chatbot capable of language translation holds transformative potential acting as a catalyst in overcoming language barriers for effective communication and information exchange. Its impact spans diverse sectors including: healthcare commerce and governance etc. offering a versatile solution to bridge linguistic gaps.</p>
+ ---
 
+ ## 🗂️ Project Overview
+ This project includes:
+ - Natural Language Processing (NLP) for intent recognition.
+ - Language detection and dynamic translation (English ↔ Swahili).
+ - A trained deep learning model to classify intents.
+ - A Flask-based frontend to chat with the bot.
 
-<h2>🧐 Features</h2>
+ ---
 
-Here're some of the project's best features:
+ ## 🛠️ Setup Instructions
 
-*   Conversational
-*   Multilingual
-*   Mental Health support
-   
-![Screenshot from 2025-01-21 15-06-06](https://github.com/user-attachments/assets/9a5852e9-96ba-4c42-bf4a-bd50622c417c)
+ ### 1️⃣ Create and Activate Virtual Environment
+ ```bash
+ python -m venv venv
+ ```
+ On **Linux/macOS**:
+ ```bash
+ source venv/bin/activate
+ ```
+ On **Windows**:
+ ```bash
+ .\venv\Scripts\activate.bat
+ ```
 
-# How to Set Up it?
+ ### 2️⃣ Install Required Libraries
+ ```bash
+ pip install -r requirements.txt
+ ```
 
-The following instructions were tested on the Windows and Linux with Python 3.8.
+ ### 3️⃣ Run the Application
+ ```bash
+ flask --app app run
+ ```
 
-1. Clone this repository
+ ---
 
-```
-git clone https://github.com/Rogendo/Mental-health-Chatbot.git
-```
-```
-cd Mental-health-Chatbot/
-```
+ ## 🧠 Core Technologies Used
+ - **Flask**: For the web app backend
+ - **Keras/TensorFlow**: Deep learning model for intent recognition
+ - **HuggingFace Transformers**: For Swahili-English translation
+ - **Langdetect**: Detect user input language
 
-2. Create and activate virtual environment 
+ ---
 
-```
-python -m venv venv
-```
-on Linux system
-```
-source venv/bin/activate
-```
-on Windows system
-```
-.\venv\Scripts\activate.bat
-```
-3. Install requirements
+ ## 📁 Project Structure
+ 
+ ```
+ 📦 ChatbotProject/
+ ├── app.py                # Flask application and main chatbot logic
+ ├── training.py           # Script for training the intent classification model
+ ├── intents.json          # File containing sample intents and responses
+ ├── model.h5              # Trained neural network model
+ ├── texts.pkl             # Pickled tokenized input data
+ ├── labels.pkl            # Pickled label data
+ ├── requirements.txt      # Project dependencies
+ ├── static/               # Static assets (JS, CSS)
+ └── templates/index.html  # Frontend UI for the chatbot
+ ```
 
-```
-pip install  -r requirements.txt
-```
+ ---
 
-4. Run the 
-```
-flask --app app --debug run
+ ## 💬 Features
+ - 🌍 Language auto-detection (English or Swahili)
+ - 🔁 Real-time bidirectional translation
+ - 🧠 Intent classification using a neural network
+ - 🌐 Interactive web interface with Flask
 
-```
+ ---
 
-
+ ✅ Ready to build, extend, and deploy!
