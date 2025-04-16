@@ -1,6 +1,6 @@
  # 🤖 Multilingual Mental Health Chatbot 
  
- A smart multilingual chatbot that understands both English and Swahili. It uses language detection,
+ A smart multilingual chatbot that understands both English and other . It uses language detection,
  real-time translation, and intent classification to respond accurately to user queries through a web interface.
 
  ---
@@ -8,14 +8,14 @@
  ## 👤 Author
  **Saad Shabbir**  
  🔗 [LinkedIn](https://www.linkedin.com/in/saad51)  
- 💼 ML Engineer | NLP Enthusiast | Web + AI Integrator
+ 💼 ML Engineer 
 
  ---
 
  ## 🗂️ Project Overview
  This project includes:
  - Natural Language Processing (NLP) for intent recognition.
- - Language detection and dynamic translation (English ↔ Swahili).
+ - Language detection and dynamic translation (English ↔ other ).
  - A trained deep learning model to classify intents.
  - A Flask-based frontend to chat with the bot.
 
@@ -51,7 +51,7 @@
  ## 🧠 Core Technologies Used
  - **Flask**: For the web app backend
  - **Keras/TensorFlow**: Deep learning model for intent recognition
- - **HuggingFace Transformers**: For Swahili-English translation
+ - **HuggingFace Transformers**: For other -English translation
  - **Langdetect**: Detect user input language
 
  ---
@@ -74,7 +74,7 @@
  ---
 
  ## 💬 Features
- - 🌍 Language auto-detection (English or Swahili)
+ - 🌍 Language auto-detection (English or other )
  - 🔁 Real-time bidirectional translation
  - 🧠 Intent classification using a neural network
  - 🌐 Interactive web interface with Flask
